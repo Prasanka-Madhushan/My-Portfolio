@@ -368,7 +368,7 @@ span{
     }
 }
  
-
+/*
 .services h2{
     margin-bottom: 3rem;
 }
@@ -410,6 +410,7 @@ span{
     font-size: 1.6rem;
     margin: 1rem 0 3rem;
 }
+*/
 
 
 /*Projetcs Section*/
@@ -586,13 +587,14 @@ span{
         padding: 10rem 3% 2rem;
     }
 
-    .services{
+    .skill{
+        width: 400px;
         padding: 10rem 3% 2rem;
     }
 
-    .skill{
+   /* .skill{
         padding: 5rem 2% 1rem;
-    }
+    }*/
 
     .Projects{
         padding-bottom: 7rem;
