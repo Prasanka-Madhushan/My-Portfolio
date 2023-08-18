@@ -240,6 +240,41 @@ span{
     margin: 2rem 0 3rem;
 }
 
+#ch{
+    display: none;
+}
+
+#ch:checked ~ .about-content2{
+    display: block;
+
+}
+
+#ch:checked ~ label{
+    display: none;
+}
+
+.about-content2{
+    display: none;
+}
+
+label{
+    display: inline-block;
+    cursor: pointer;
+    color: var(--second-bg-color);
+    background: var(--main-color);
+    box-shadow: 0 0 1rem var(--main-color);
+    padding: 1rem 2.8rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 4rem;
+    margin-top: 12px;
+    transition: .5s ease;
+}
+
+label:hover{
+    box-shadow: none;
+}
+
 
 /*Services Section*/
 .skill{
