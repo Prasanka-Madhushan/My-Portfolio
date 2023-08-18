@@ -278,7 +278,7 @@ label:hover{
 
 /*Services Section*/
 .skill{
-    width: 800px;
+    width: 950px;
     margin: 10px auto;
     color: var(--text-color);
     padding: 20px;
@@ -344,7 +344,7 @@ label:hover{
     animation: csharp 3s;
 }
  
- .phython{
+ .python{
      width: 30%;
      animation: phython 3s;
  }
@@ -386,7 +386,7 @@ label:hover{
         width: 60%;
     }
 }
- @keyframes phython{
+ @keyframes python{
      0%{
          width: 0%;
      }
