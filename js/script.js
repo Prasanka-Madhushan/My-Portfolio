@@ -7,7 +7,7 @@ menuIcon.onclick = () =>{
     navbar.classList.toggle('active');
 }
 
-//toggle switch
+/*==================== toggle switch ====================*/
 const themebtn=document.querySelector('.theme-btn');
 themebtn.addEventListener('click',()=>{
     let element=document.body;
