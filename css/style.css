@@ -84,6 +84,10 @@ section{
     display: none;
 }
 
+#menu-icon:hover{
+    color:#bc4749;
+}
+
 .theme-btn {
     top: auto;
     right: 3%;
@@ -616,6 +620,11 @@ label:hover{
 @media(max-width:991px){
     .header{
         padding: 2rem 3%;
+    }
+
+    .theme-btn{
+        display: flex;
+        margin-top: 10%;
     }
 
     section{
