@@ -128,6 +128,7 @@ section{
 .home-img img{
     width: 30vw;
     margin-left: 45px;
+    border-radius: 80px;
     animation: floatImage 4s ease-in-out infinite;
 }
 
@@ -218,6 +219,7 @@ span{
 
 .about-img img{
     width: 30vw;
+    border-radius: 80px;
     filter: grayscale(100%);
 }
 
@@ -452,7 +454,7 @@ label:hover{
 */
 
 
-/*Projetcs Section*/
+/*Projets Section*/
 .Projects{
     background: var(--second-bg-color);
 }
@@ -478,6 +480,8 @@ label:hover{
 
 .Projects-box img{
     width: 100%;
+    height: 40px;
+    min-height: 200px;
     opacity: 82%;
     transition: .5s ease;
 }
